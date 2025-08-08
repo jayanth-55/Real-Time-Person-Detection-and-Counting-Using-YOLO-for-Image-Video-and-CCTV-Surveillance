@@ -1,31 +1,36 @@
 # Python cache
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-*.so
 
 # Virtual environment
 venv/
 ENV/
 env/
-.venv/
 
-# Dataset files
-*.zip
-*.tar
-*.tar.gz
-*.csv
-datasets/
-data/
-output/
-runs/
+# IDE settings
+.vscode/
+.idea/
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints/
+.ipynb_checkpoints
+
+# OS generated files
+.DS_Store
+Thumbs.db
 
 # Logs
 *.log
 
-# YOLO cache
-*.cache
+# Environment files
+*.env
+.env
+
+# Compiled Cython files
+*.so
+
+# Build directories
+build/
+dist/
+*.egg-info/
