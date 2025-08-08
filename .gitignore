@@ -1,19 +1,36 @@
+# Python cache
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Virtual environment
 venv/
 ENV/
 env/
+
+# IDE settings
 .vscode/
 .idea/
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints
+
+# OS generated files
 .DS_Store
 Thumbs.db
+
+# Logs
 *.log
+
+# Environment files
 *.env
 .env
+
+# Compiled Cython files
 *.so
+
+# Build directories
 build/
 dist/
 *.egg-info/
